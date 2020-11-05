@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="texto_boton">Segunda Actividad</string>
+
+    <string name="pnombre">Nombre</string>
+    <string name="amarillo_likes">15</string>
+    <string name="todo">TODO</string>
+</resources>

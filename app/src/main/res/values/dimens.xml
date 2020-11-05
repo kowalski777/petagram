@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="elevation_actionbar">4dp</dimen>
+    <dimen name="booton">5dp</dimen>
+    <dimen name="cor_rad_cardview">5dp</dimen>
+    <dimen name="nombre_cardview">25sp</dimen>
+    <dimen name="centrar_margen">25dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
+
+</resources>
