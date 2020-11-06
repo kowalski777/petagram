@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".contacto.About">
+
+    <androidx.cardview.widget.CardView
+    android:id="@+id/cvContacto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/booton"
+    app:cardCornerRadius="@dimen/cor_rad_cardview">
+        <include
+            android:id="@+id/miActionBar"
+            layout="@layout/actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margen16">
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:id="@+id/Pimg"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/cardview_default_elevation"
+                android:src="@drawable/perfil"/>
+            <TextView
+                android:id="@+id/Pnombre"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Minombre"
+                android:textSize="@dimen/nombre_cardview"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Picon_tel"
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/phone"/>
+                <TextView
+                    android:id="@+id/Ptel_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margen8"
+                    android:layout_marginLeft="@dimen/margen16"
+                    android:text="@string/telefono"
+                    android:textSize="@dimen/size20"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Picon_email"
+                    android:layout_marginTop="@dimen/margen16"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/mail"/>
+                <TextView
+                    android:id="@+id/Pemail_text"
+                    android:layout_marginTop="@dimen/size20"
+                    android:layout_marginLeft="@dimen/margen16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Miemail"
+                    android:textSize="@dimen/size20"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+    
+
+
+</LinearLayout>

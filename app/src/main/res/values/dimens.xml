@@ -8,4 +8,16 @@
     <dimen name="centrar_margen">25dp</dimen>
     <dimen name="marginTop">20dp</dimen>
 
+
+    <dimen name="nombre_contacto">33sp</dimen>
+    <dimen name="telefono_contacto">20sp</dimen>
+    <dimen name="email_contacto">20sp</dimen>
+    <dimen name="marginLeft">10dp</dimen>
+    <dimen name="tamañoIcono">40dp</dimen>
+    <dimen name="margen16">16dp</dimen>
+    <dimen name="radius">4dp</dimen>
+    <dimen name="margen8">8dp</dimen>
+    <dimen name="size30">30sp</dimen>
+    <dimen name="size20">20sp</dimen>
+
 </resources>

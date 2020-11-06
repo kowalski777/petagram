@@ -1,8 +1,24 @@
 <resources>
     <string name="app_name">Petagram</string>
-    <string name="texto_boton">Segunda Actividad</string>
+    <string name="title_activity_detalle_contacto">DetalleContacto</string>
+    <string name="nombre">Esteban Garriga</string>
+    <string name="telefono">23644668</string>
+    <string name="email">estebangarriga@hotmail.com</string>
 
+<!-- Contacto-->
     <string name="pnombre">Nombre</string>
+    <string name="ptelefono">Telefono</string>
+    <string name="pemail">Email</string>
+<!-- -->
     <string name="amarillo_likes">15</string>
     <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="estrella">Link a Favoritos</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_about">About</string>
+    <string name="Cmensaje">Escribe aqui tu mensaje !!</string>
+    <string name="boton_enviar">Enviar</string>
+    <string name="Miemail">estebangar@gmail.com</string>
+    <string name="Minombre">Esteban Garriga</string>
 </resources>
