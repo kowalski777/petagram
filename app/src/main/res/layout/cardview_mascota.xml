@@ -28,12 +28,13 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/btnLike"
+
+            <ImageView
+                android:id="@+id/btnLikeCV"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@mipmap/hueso"/>
+                app:srcCompat="@mipmap/hueso" />
 
             <TextView
                 android:id="@+id/tvNombreCV"

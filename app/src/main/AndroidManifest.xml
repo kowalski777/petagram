@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.estebangarriga.petagram">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -12,35 +13,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".contacto.About"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.estebangarriga.petagram.MainActivity"/>
+                android:value="com.estebangarriga.petagram.MainActivity" />
         </activity>
-
         <activity
             android:name=".contacto.FormularioContacto"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.estebangarriga.petagram.MainActivity" /></activity>
-
+                android:value="com.estebangarriga.petagram.MainActivity" />
+        </activity>
         <activity
             android:name=".MascotasFavoritas"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean">
+
             <!-- Soporte para versiones 4.0 o menores -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.estebangarriga.petagram.MainActivity">
-            </meta-data>
+                android:value="com.estebangarriga.petagram.MainActivity"></meta-data>
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

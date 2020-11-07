@@ -5,11 +5,11 @@
     <string name="telefono">23644668</string>
     <string name="email">estebangarriga@hotmail.com</string>
 
-<!-- Contacto-->
+    <!-- Contacto-->
     <string name="pnombre">Nombre</string>
     <string name="ptelefono">Telefono</string>
     <string name="pemail">Email</string>
-<!-- -->
+    <!-- -->
     <string name="amarillo_likes">15</string>
     <string name="todo">TODO</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -21,4 +21,6 @@
     <string name="boton_enviar">Enviar</string>
     <string name="Miemail">estebangar@gmail.com</string>
     <string name="Minombre">Esteban Garriga</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="boton_guardar">Guardar</string>
 </resources>
